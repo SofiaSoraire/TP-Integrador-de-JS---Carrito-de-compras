@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos - Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🛒 Mi Tienda Online</h1>
+            <p class="subtitle">Encuentra los mejores productos</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Contenedor de errores -->
+        <div id="error-container"></div>
+
+        <div class="main-content">
+            <!-- Sección de productos -->
+            <section class="products-section">
+                <h2>Productos Disponibles</h2>
+                <div id="products-container" class="products-grid">
+                    <!-- Los productos se renderizarán aquí -->
+                </div>
+            </section>
+
+            <!-- Sección del carrito -->
+            <aside class="cart-section">
+                <div class="cart-sticky">
+                    <h2>🛍️ Mi Carrito</h2>
+                    <div id="cart-container" class="cart-items">
+                        <!-- Los items del carrito se renderizarán aquí -->
+                    </div>
+                    <div id="total-container" class="cart-total">
+                        <!-- El total y botones se renderizarán aquí -->
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mi Tienda Online - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
